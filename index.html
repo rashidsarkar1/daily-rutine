@@ -1,15 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Daily Routine Table</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
+<body class="bg-gray-100">
+  <div class="container mx-auto mt-8">
+    <table class="min-w-full divide-y divide-gray-200 bg-white shadow overflow-hidden sm:rounded-lg">
+      <thead class="bg-gray-50">
+        <tr>
+          <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+            Time
+          </th>
+          <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+            Activity
+          </th>
+        </tr>
+      </thead>
+      <tbody class="bg-white divide-y divide-gray-200">
+        <tr class="bg-blue-100">
+          <td class="px-6 py-4 whitespace-nowrap">7:00 am - 8:30 am</td>
+          <td class="px-6 py-4 whitespace-nowrap">Wake up, morning routine, breakfast</td>
+        </tr>
+        <tr class="bg-yellow-100">
+          <td class="px-6 py-4 whitespace-nowrap">9:00 am - 10:00 am</td>
+          <td class="px-6 py-4 whitespace-nowrap">Attend school (Session 1)</td>
+        </tr>
+        <tr class="bg-yellow-100">
+          <td class="px-6 py-4 whitespace-nowrap">10:00 am - 10:30 am</td>
+          <td class="px-6 py-4 whitespace-nowrap">Travel time (back home)</td>
+        </tr>
+        <tr class="bg-yellow-100">
+          <td class="px-6 py-4 whitespace-nowrap">10:30 am - 12:00 pm</td>
+          <td class="px-6 py-4 whitespace-nowrap">Udemy React Course (Study Session 1)</td>
+        </tr>
+        <tr class="bg-green-100">
+          <td class="px-6 py-4 whitespace-nowrap">12:00 pm - 2:00 pm</td>
+          <td class="px-6 py-4 whitespace-nowrap">Lunch and short break</td>
+        </tr>
+        <tr class="bg-yellow-100">
+          <td class="px-6 py-4 whitespace-nowrap">2:00 pm - 3:30 pm</td>
+          <td class="px-6 py-4 whitespace-nowrap">Homework from school and short break</td>
+        </tr>
+        <tr class="bg-yellow-100">
+          <td class="px-6 py-4 whitespace-nowrap">4:00 pm - 5:00 pm</td>
+          <td class="px-6 py-4 whitespace-nowrap">Attend school (Session 2)</td>
+        </tr>
+        <tr class="bg-yellow-100">
+          <td class="px-6 py-4 whitespace-nowrap">5:00 pm - 5:30 pm</td>
+          <td class="px-6 py-4 whitespace-nowrap">Travel time (back home)</td>
+        </tr>
+        <tr class="bg-yellow-100">
+          <td class="px-6 py-4 whitespace-nowrap">5:30 pm - 7:00 pm</td>
+          <td class="px-6 py-4 whitespace-nowrap">Udemy React Course (Study Session 2)</td>
+        </tr>
+        <tr class="bg-red-100">
+          <td class="px-6 py-4 whitespace-nowrap">7:00 pm - 9:00 pm</td>
+          <td class="px-6 py-4 whitespace-nowrap">Dinner, relaxation, and free time</td>
+        </tr>
+        <tr class="bg-yellow-100">
+          <td class="px-6 py-4 whitespace-nowrap">9:00 pm - 10:00 pm</td>
+          <td class="px-6 py-4 whitespace-nowrap">Review schoolwork or relax (Optional)</td>
+        </tr>
+        <tr class="bg-blue-100">
+          <td class="px-6 py-4 whitespace-nowrap">10:00 pm onwards</td>
+          <td class="px-6 py-4 whitespace-nowrap">Wind down, prepare for bed, sleep</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
 
-<body>
-  <h2>JS</h2>
-  <script src="./app.js"></script>
+  <!-- Alpine.js CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/alpinejs@2.8.2/dist/alpine.min.js"></script>
 </body>
-
 </html>
